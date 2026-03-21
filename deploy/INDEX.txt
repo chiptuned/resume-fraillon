@@ -1,0 +1,327 @@
+================================================================================
+VINCENT FRAILLON PORTFOLIO BUILD - COMPLETE FILE INDEX
+================================================================================
+
+BUILD DATE: March 19, 2026
+BUILD TOOL: Vite 8.0.1
+STATUS: ✓ PRODUCTION READY
+
+================================================================================
+PRODUCTION FILES (READY TO DEPLOY)
+================================================================================
+
+Location: /deploy/dist/
+
+These files contain the complete, self-contained portfolio application.
+Copy the entire dist/ folder to your web host.
+
+dist/
+├── index.html                 Entry point (456 bytes)
+├── favicon.svg               Browser tab icon (9.3 KB)
+├── icons.svg                 Icon sprite (5.0 KB)
+└── assets/
+    ├── index-D2vo0Nh9.js     React + all components (222 KB)
+    └── index-nqMpL4T3.css    All styling (1.8 KB)
+
+TOTAL: 252 KB (self-contained, no external dependencies)
+
+================================================================================
+DEVELOPMENT/SOURCE FILES
+================================================================================
+
+deploy/src/
+├── App.jsx                   Main portfolio component (complete React app)
+├── App.css                   Component styles
+├── main.jsx                  React entry point
+├── index.css                 Global styles
+└── assets/                   (SVG icons for build)
+
+deploy/
+├── package.json              Project dependencies
+├── vite.config.js            Vite build configuration
+├── index.html                HTML template for build
+└── public/                   Static assets directory
+
+================================================================================
+DOCUMENTATION FILES
+================================================================================
+
+README.md                      Complete project overview
+                               - Features
+                               - Building locally
+                               - Deployment options
+                               - Customization guide
+                               - Troubleshooting
+
+QUICK_START.md                Fast deployment guide (5 min read)
+                               - Quick deployment paths
+                               - Test locally instructions
+                               - Deploy to GitHub Pages, Vercel, Netlify
+                               - File sizes and browser support
+
+DEPLOYMENT.md                 Detailed deployment guide
+                               - Overview
+                               - How to deploy
+                               - Build information
+                               - Testing checklist
+                               - Notes on technology
+
+BUILD_SUMMARY.txt             Technical build report
+                               - Build artifacts
+                               - Features included
+                               - Deployment readiness
+                               - Next steps
+                               - Technical notes
+
+INDEX.txt                     This file
+                               Complete file structure and descriptions
+
+================================================================================
+BUILD COMMAND REFERENCE
+================================================================================
+
+Development:
+  npm install                 Install dependencies
+  npm run dev                 Start dev server (port 5173)
+
+Production:
+  npm run build               Build for production
+  npm run preview             Preview production build locally
+  npm run lint                Run ESLint checks
+
+================================================================================
+WHAT WAS BUILT
+================================================================================
+
+Source File:
+  /sessions/exciting-serene-mccarthy/mnt/vincentfraillon/repos/
+  dossier-competences/dossier-competences-vincent-fraillon.jsx
+
+Built Into:
+  /sessions/exciting-serene-mccarthy/mnt/vincentfraillon/repos/
+  dossier-competences/deploy/dist/
+
+Process:
+  JSX → Vite Build → Minified JS/CSS → Static HTML Site
+
+Result:
+  Self-contained, production-ready static website
+  No external dependencies
+  No server-side processing needed
+
+================================================================================
+CONTENT INCLUDED IN BUILD
+================================================================================
+
+React Components:
+  ✓ Reveal (scroll animation wrapper)
+  ✓ ProjectCard (expandable project details)
+  ✓ App (main portfolio layout)
+
+Features:
+  ✓ Bilingual support (English & French)
+  ✓ Language toggle button
+  ✓ Scroll-reveal animations
+  ✓ Expandable project cards
+  ✓ Responsive grid layouts
+  ✓ Dynamic color accents by project
+
+Content:
+  ✓ Professional profile (About section)
+  ✓ 8 project case studies:
+    - GAMBIT / BNP Paribas (GenAI)
+    - Carrefour Links (Data Infrastructure)
+    - Cedrus & Partners (Financial Reports)
+    - Colisée (Senior Care Data Stack)
+    - Unédic / AGS (Salary Guarantee System)
+    - AFDAS (Job Market Intelligence)
+    - Saint-Gobain (Industrial Algorithms)
+    - CNRS (Vision Institute R&D)
+  ✓ Experience timeline (4 roles)
+  ✓ Certifications (3)
+  ✓ Education background
+  ✓ Tech stack by category (5)
+  ✓ Skills/roles description
+
+Icons (Lucide React):
+  ✓ ChevronDown, Award, Code2, Database, Brain
+  ✓ BarChart3, Cloud, Layers, GraduationCap, Calendar
+  ✓ Zap, Target, Users, Server, Globe
+
+================================================================================
+DEPENDENCIES INCLUDED
+================================================================================
+
+Runtime Dependencies:
+  ✓ react@18.x
+  ✓ react-dom@18.x
+  ✓ lucide-react (all icons)
+
+Build Dependencies:
+  ✓ vite@8.0.1
+  ✓ @vitejs/plugin-react
+  ✓ eslint
+  ✓ eslint-plugin-react (dev tools)
+
+All bundled into dist/ for deployment.
+No server-side dependencies needed.
+
+================================================================================
+DEPLOYMENT QUICK REFERENCE
+================================================================================
+
+GitHub Pages:
+  cp -r dist/* ../gh-pages/
+  git add . && git commit -m "Deploy" && git push
+
+Vercel:
+  npm i -g vercel && vercel --prod
+
+Netlify:
+  npm i -g netlify-cli && netlify deploy --prod --dir=dist
+
+Traditional Server:
+  scp -r dist/ user@server:/var/www/html/
+
+================================================================================
+TESTING LOCALLY
+================================================================================
+
+Method 1 - Python:
+  cd dist
+  python -m http.server 8000
+  Open: http://localhost:8000
+
+Method 2 - Node.js:
+  npx http-server
+  Open: http://localhost:8080
+
+What to Test:
+  ✓ Page loads without errors
+  ✓ Language toggle (EN/FR) works
+  ✓ Scroll animations play
+  ✓ Project cards expand/collapse
+  ✓ Responsive on mobile
+  ✓ No console errors (F12)
+
+================================================================================
+KEY STATISTICS
+================================================================================
+
+Build Time:                   489 ms
+Modules Transformed:          1,729
+Output Files:                 6
+Total Size:                   252 KB
+JavaScript (minified):        222 KB (≈72 KB gzipped)
+CSS (minified):              1.8 KB (≈0.8 KB gzipped)
+HTML:                        456 bytes
+
+Browser Support:
+  ✓ Chrome/Edge 90+
+  ✓ Firefox 88+
+  ✓ Safari 14+
+  ✓ Any ES2015+ browser
+
+================================================================================
+FILE MODIFICATION GUIDE
+================================================================================
+
+To Update the Portfolio:
+
+1. Edit Content:
+   → modify src/App.jsx
+   → change the 't' object (translation/content)
+   → run: npm run build
+
+2. Change Colors:
+   → modify projectAccents in src/App.jsx
+   → run: npm run build
+
+3. Add Project:
+   → add to projects object in src/App.jsx
+   → run: npm run build
+
+4. Modify Layout:
+   → edit JSX in src/App.jsx
+   → run: npm run build
+
+5. Deploy:
+   → copy dist/ to web host
+   → or run: npm run build && deployment command
+
+================================================================================
+TROUBLESHOOTING REFERENCE
+================================================================================
+
+Issue: CSS not loading
+→ Check dist/assets/ folder exists and is uploaded
+→ Verify file paths in dist/index.html
+
+Issue: Icons missing
+→ Ensure icons.svg is in dist/ root
+→ Check browser console for 404 errors
+
+Issue: Language toggle broken
+→ Check browser console (F12) for JS errors
+→ Verify JavaScript file loaded successfully
+
+Issue: Animations not smooth
+→ Normal on older devices
+→ Check for console errors
+→ Test in Chrome DevTools device emulation
+
+Issue: Assets 404 errors
+→ Verify all files from dist/ were uploaded
+→ Check file paths in HTML (relative vs absolute)
+→ Ensure web server configured for static files
+
+================================================================================
+SUPPORT & RESOURCES
+================================================================================
+
+Quick Reference:
+  • QUICK_START.md - 5 minute deployment guide
+  • README.md - Complete overview
+
+Detailed Help:
+  • DEPLOYMENT.md - Deployment instructions
+  • BUILD_SUMMARY.txt - Technical details
+
+Troubleshooting:
+  1. Check browser console (F12 → Console)
+  2. Check Network tab for 404s
+  3. Verify all dist/ files uploaded
+  4. Test locally first: python -m http.server 8000
+
+React Documentation:
+  https://react.dev
+
+Vite Documentation:
+  https://vitejs.dev
+
+Lucide React Icons:
+  https://lucide.dev
+
+================================================================================
+COMPLETION SUMMARY
+================================================================================
+
+✓ Source JSX imported and converted to Vite project
+✓ All dependencies installed (React, React-DOM, Lucide-React)
+✓ Build completed successfully (489ms)
+✓ Assets minified and optimized
+✓ Production files generated in dist/
+✓ Documentation created (README, guides, summaries)
+✓ Ready for immediate deployment
+
+Next Steps:
+  1. Test locally: python -m http.server 8000
+  2. Choose deployment platform
+  3. Copy dist/ folder to host
+  4. Configure domain/URL
+  5. Test in production
+
+================================================================================
+BUILD COMPLETED: March 19, 2026
+STATUS: ✅ READY FOR PRODUCTION DEPLOYMENT
+================================================================================
