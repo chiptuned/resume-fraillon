@@ -243,12 +243,6 @@ export default function App() {
           </div>
         </div>
 
-        {/* FOOTER */}
-        <footer style={{ borderTop: `1px solid ${border}`, paddingTop: 20 }}>
-          <p style={{ fontSize: 13, fontFamily: mono, color: fg3 }}>
-            turning data into decisions, one hand at a time
-          </p>
-        </footer>
       </div>
     </div>
   );
