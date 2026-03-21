@@ -38,7 +38,7 @@ const t = {
     atLabel: "chez",
     bio: [
       "Je suis ingénieur data et IA. Ça fait 8 ans que je construis des systèmes en production, surtout à l'intersection de l'infrastructure data à grande échelle et du ML appliqué.",
-      "Ce que je préfère : prendre un problème data complexe et le transformer en quelque chose de fiable que les équipes utilisent vraiment. J'ai fait ça pour des banques (BNP Paribas), des retailers (Carrefour), des industriels (Saint-Gobain) et des institutions publiques (Unédic).",
+      "Ce que je préfère : prendre un problème data complexe et le transformer en quelque chose de fiable que les équipes utilisent vraiment. J'ai fait ça pour des banques (BNP Paribas), retailers (Carrefour), des industriels (Saint-Gobain) et des institutions publiques (Unédic).",
       "Ces projets, je les ai menés chez Theodo et d'autres ESN parisiennes, en tant que data engineer senior, puis VP où j'ai constitué et encadré des équipes junior, et enfin en freelance.",
       "Focus actuel : innovation sur les SI et les data stacks en g\u00e9n\u00e9ral. J'aime le Rust, le CUDA, et les trucs qui vont vite. En dehors de l'ing\u00e9nierie, je joue au poker, j'\u00e9coute beaucoup de musique, et je me construis un chemin vers la cr\u00e9ation de contenu.",
     ],
