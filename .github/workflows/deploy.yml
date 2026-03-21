@@ -11,6 +11,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies & build
+        working-directory: deploy
+        run: |
+          npm ci
+          npm run build
+
+      - name: Copy build to cloudflare-deploy
+        run: |
+          rm -rf cloudflare-deploy/assets
+          cp -r deploy/dist/* cloudflare-deploy/
+
       - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
         with:

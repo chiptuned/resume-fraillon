@@ -1,7 +1,6 @@
-# Cloudflare Pages configuration
+# Cloudflare Workers + Static Assets
 name = "resume-fraillon"
 compatibility_date = "2024-12-01"
 
-# Pages will auto-detect:
-# - Static assets from cloudflare-deploy/
-# - Env vars from Cloudflare dashboard
+[assets]
+directory = "./cloudflare-deploy"
