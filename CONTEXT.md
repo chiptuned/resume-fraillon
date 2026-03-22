@@ -17,19 +17,12 @@ dossier-competences/
 ├── deploy/                          # Vite + React 19 project (source of truth)
 │   ├── src/App.jsx                  # Main component — all content lives here (bilingual)
 │   ├── vite.config.js
-│   └── dist/                        # Build output (may have permission issues, use --outDir flag)
-├── cloudflare-deploy/               # Production bundle — drag to Cloudflare Pages or use wrangler
-│   ├── index.html
-│   └── assets/
+│   └── dist/                        # Build output
 ├── generate_pdf.py                  # Playwright script to export website → one-pager A4 PDFs
 ├── Vincent_Fraillon_Resume.pdf      # EN one-pager (generated)
 ├── Vincent_Fraillon_CV.pdf          # FR one-pager (generated)
-├── dossier-competences-vincent-fraillon.md    # Markdown version (detailed, with project refs)
-├── dossier-competences-vincent-fraillon.html  # Standalone HTML version
-├── dossier-competences-vincent-fraillon.jsx   # Standalone JSX version
-├── Dossier de compétences - Vincent Fraillon.pdf        # Old full PDF export (~11MB)
-├── Dossier de compétences - Vincent Fraillon AIEHZ.pdf  # Old full PDF export (~11MB)
-└── CONTEXT.md                       # This file
+├── CONTEXT.md                       # This file
+└── CLAUDE.md                        # Claude Code / Cowork instructions
 ```
 
 ## How to generate PDFs
@@ -57,18 +50,26 @@ python generate_pdf.py
 
 ## How to build & deploy
 
+**Deployment is fully automatic via Cloudflare Pages.**
+
+Push to `main` on GitHub → Cloudflare Pages auto-builds from `deploy/` and deploys to production. No CI workflow, no wrangler, no manual steps.
+
+Cloudflare Pages config:
+- **Project**: `resume-fraillon` on Cloudflare Pages
+- **GitHub repo**: `chiptuned/resume-fraillon`
+- **Build command**: `npm run build`
+- **Build output**: `dist`
+- **Root directory**: `deploy`
+- **Custom domains**: `cv.fraillon.com`, `resume.fraillon.com`
+- **Pages URL**: `resume-fraillon.pages.dev`
+
+To test locally:
 ```bash
 cd deploy
 npm install
-# Build (use --outDir if dist/ has permission issues)
-npx vite build --outDir /tmp/dist-out
-# Copy to cloudflare-deploy
-rm -rf ../cloudflare-deploy/assets
-cp -r /tmp/dist-out/assets ../cloudflare-deploy/assets
-cp /tmp/dist-out/index.html ../cloudflare-deploy/index.html
+npm run dev      # dev server
+npm run build    # production build → dist/
 ```
-
-Deploy: drag `cloudflare-deploy/` to Cloudflare Pages dashboard, or use `wrangler` CLI (needs `CLOUDFLARE_API_TOKEN`).
 
 ## Key content decisions
 

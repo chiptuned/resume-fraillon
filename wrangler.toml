@@ -1,6 +1,0 @@
-# Cloudflare Workers + Static Assets
-name = "royal-feather-d5e0"
-compatibility_date = "2024-12-01"
-
-[assets]
-directory = "./cloudflare-deploy"
