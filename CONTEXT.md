@@ -32,7 +32,7 @@ The `generate_pdf.py` script uses Playwright (headless Chromium) to:
 2. Apply DOM tweaks via JS injection:
    - Remove bio paragraphs, replace with a one-sentence intro
    - Remove footer
-   - Add email (vincent@fraillon.com) to header
+   - Add email (vincent@q4o.com) to header
    - Remove toggle buttons (dark mode, language)
    - Remove "How?" / "Comment ?" expand buttons
    - Compress spacing aggressively to fit on one A4 page
@@ -80,7 +80,7 @@ npm run build    # production build → dist/
 - **Cedrus description**: "Python engine generating PowerPoint reports from Power BI data" (not "Power BI → PowerPoint")
 - **Removed from descriptions**: "(LBO model)" from Colisée, "(5 months FTE)" / "(5 mois ETP)" from Saint-Gobain
 - **No footer** in PDF
-- **Email**: vincent@fraillon.com
+- **Email**: vincent@q4o.com
 
 ## Tech stack (website)
 
@@ -93,4 +93,4 @@ npm run build    # production build → dist/
 
 ## Owner
 
-Vincent Fraillon — vincent@fraillon.com
+Vincent Fraillon — vincent@q4o.com
