@@ -11,10 +11,10 @@ const t = {
     starTip: "A project that shaped how I think about engineering",
     atLabel: "at",
     bio: [
-      "I'm a data and AI engineer. I've been building production systems for 8 years, mostly at the intersection of large-scale data infrastructure and applied ML.",
-      "The work I enjoy most: taking a messy data problem and turning it into something reliable that teams can actually use. I've done this for banks (BNP Paribas), retailers (Carrefour), manufacturers (Saint-Gobain), and public institutions (Unédic).",
-      "I ran these projects through Theodo and other Paris-based tech consultancies, first as a senior data engineer, then as VP where I built and mentored junior teams, and now as a freelancer.",
-      "Currently focused on IS innovation and modern data stacks. I like Rust, CUDA, and things that go fast. Outside of engineering, I play poker, listen to a lot of music, and I'm building toward creating content.",
+      "I'm a data and AI engineer with 8+ years building production systems where data infrastructure, software, and applied AI meet.",
+      "Since June 2026, I've been building q4o, a Paris-based data and AI studio focused on useful AI applications and production-grade data systems. I combine Python, C++, SQL, prompt design, product framing, and Lean delivery.",
+      "Before q4o, I was VP Data Engineering at Isskar from October 2024 to March 2026. Earlier, I led data engineering and data science projects at Theodo Data & AI.",
+      "My work spans financial services, retail, manufacturing, and public institutions—from AI-assisted wealth advisory to a supplier-insights platform processing more than 1 billion rows per day.",
     ],
     work: [
       { year: "2025", title: "Automated financial reporting", where: "Cedrus & Partners", what: "Python engine generating PowerPoint reports from Power BI data for an asset allocation firm. 50+ client reports/month, fully automated.", context: "50+ reports/month is the production volume, each being a client-specific PowerPoint generated from Power BI extracts with isolated per-client storage. Previously, analysts spent days on manual formatting and PDF exports. Architecture designed for parallel processing to serve hundreds of clients simultaneously." },
@@ -37,10 +37,10 @@ const t = {
     starTip: "Un projet qui a changé ma façon de penser l'ingénierie",
     atLabel: "chez",
     bio: [
-      "Je suis ingénieur data et IA. Ça fait 8 ans que je construis des systèmes en production, surtout à l'intersection de l'infrastructure data à grande échelle et du ML appliqué.",
-      "Ce que je préfère : prendre un problème data complexe et le transformer en quelque chose de fiable que les équipes utilisent vraiment. J'ai fait ça pour des banques (BNP Paribas), retailers (Carrefour), des industriels (Saint-Gobain) et des institutions publiques (Unédic).",
-      "Ces projets, je les ai menés chez Theodo et d'autres ESN parisiennes, en tant que data engineer senior, puis VP où j'ai constitué et encadré des équipes junior, et enfin en freelance.",
-      "Focus actuel : innovation sur les SI et les data stacks en g\u00e9n\u00e9ral. J'aime le Rust, le CUDA, et les trucs qui vont vite. En dehors de l'ing\u00e9nierie, je joue au poker, j'\u00e9coute beaucoup de musique, et je me construis un chemin vers la cr\u00e9ation de contenu.",
+      "Ingénieur data et IA avec plus de 8 ans d'expérience, je construis des systèmes en production à la rencontre de l'infrastructure data, du logiciel et de l'IA appliquée.",
+      "Depuis juin 2026, je développe q4o, un studio parisien data et IA consacré aux applications IA utiles et aux systèmes data prêts pour la production. J'allie Python, C++, SQL, conception de prompts, cadrage produit et livraison Lean.",
+      "Auparavant, j'ai été VP Data Engineering chez Isskar d'octobre 2024 à mars 2026. Avant cela, j'ai dirigé des projets data et IA chez Theodo Data & AI.",
+      "Mes réalisations couvrent la banque, le retail, l'industrie et le secteur public : conseiller bancaire augmenté par l'IA, veille des compétences et plateforme fournisseurs traitant plus d'un milliard de lignes par jour.",
     ],
     work: [
       { year: "2025", title: "Rapports financiers automatisés", where: "Cedrus & Partners", what: "Moteur Python de génération de rapports PowerPoint à partir de données Power BI pour un cabinet d'allocation d'actifs. 50+ rapports clients/mois, entièrement automatisé.", context: "50+ rapports/mois = volume de production, chaque rapport étant un PowerPoint spécifique client généré depuis des extraits Power BI, avec stockage isolé par client. Les analystes passaient auparavant des jours sur le formatage manuel et l'export PDF. Architecture conçue pour le traitement parallèle de centaines de clients simultanément." },

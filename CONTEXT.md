@@ -74,8 +74,10 @@ npm run build    # production build → dist/
 ## Key content decisions
 
 - **No long bio** in PDF — replaced with one-sentence intro
-- **Intro (EN)**: "Data and AI engineer, 8+ years. From CNRS research to Theodo, then VP Engineering, now freelance. Game theory and music fuel my creativity beyond the terminal."
-- **Intro (FR)**: "Ingénieur data et IA, +8 ans d'expérience. Du CNRS à Theodo, puis VP Engineering en ESN, aujourd'hui freelance. La théorie des jeux et la musique nourrissent ma créativité au quotidien."
+- **Current experience**: Founder & Principal Engineer at q4o, since June 2026; VP Data Engineering at Isskar, October 2024–March 2026; Lead Data Engineer & Data Scientist at Theodo Data & AI, September 2022–May 2024.
+- **Current positioning**: AI applications and production delivery, combining Python, C++, SQL, prompt design, product framing, team leadership, and Lean methods.
+- **Intro (EN)**: "I'm a data and AI engineer with 8+ years building production systems where data infrastructure, software, and applied AI meet. Since June 2026, I've been building q4o, a Paris-based data and AI studio focused on useful AI applications and production-grade data systems. Before q4o, I was VP Data Engineering at Isskar from October 2024 to March 2026."
+- **Intro (FR)**: "Ingénieur data et IA avec plus de 8 ans d'expérience, je construis des systèmes en production à la rencontre de l'infrastructure data, du logiciel et de l'IA appliquée. Depuis juin 2026, je développe q4o, un studio parisien data et IA consacré aux applications IA utiles et aux systèmes data prêts pour la production. Auparavant, j'ai été VP Data Engineering chez Isskar d'octobre 2024 à mars 2026."
 - **Important**: Vincent was NOT VP Engineering at Theodo — he was VP Engineering at a different ESN (consultancy). Theodo was a separate earlier role.
 - **Cedrus description**: "Python engine generating PowerPoint reports from Power BI data" (not "Power BI → PowerPoint")
 - **Removed from descriptions**: "(LBO model)" from Colisée, "(5 months FTE)" / "(5 mois ETP)" from Saint-Gobain
