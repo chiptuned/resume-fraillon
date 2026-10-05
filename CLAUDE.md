@@ -19,7 +19,7 @@ Cloudflare Pages — fully automatic. Push to `main` triggers build + deploy.
 - `deploy/src/App.jsx` — All content and UI. Both languages live here.
 - `deploy/vite.config.js` — Vite config (React plugin only)
 - `deploy/public/` — Static assets (favicon, PDFs)
-- `generate_pdf.py` — Playwright script to export one-pager PDFs from the live site
+- `scripts/generate_cv_pdfs.py` — ReportLab script that generates the bilingual one-page CV PDFs
 - `CONTEXT.md` — Full project context (content decisions, PDF generation, etc.)
 
 ## Tech stack
@@ -31,13 +31,11 @@ Dark/light mode + FR/EN toggle based on subdomain.
 
 **Edit site content**: Modify `deploy/src/App.jsx`, push to `main`.
 
-**Regenerate PDFs**:
+**Regenerate PDFs** (bundled Python runtime with ReportLab):
 ```bash
-pip install playwright --break-system-packages
-playwright install chromium
-python generate_pdf.py
+python3 scripts/generate_cv_pdfs.py
 ```
-PDFs are generated from the live site — deploy changes first.
+The script writes the two PDFs directly to `deploy/public/`.
 
 **Local dev**:
 ```bash
