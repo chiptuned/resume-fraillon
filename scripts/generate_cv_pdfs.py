@@ -13,12 +13,13 @@ INK, MUTED, LIGHT = colors.HexColor('#171717'), colors.HexColor('#666666'), colo
 
 DATA = {
 'en': {
- 'intro': 'Data and AI engineer with 8+ years building production systems. I turn Python, C++, SQL and applied AI into useful applications, combining prompt design, product framing and Lean delivery.',
+ 'intro': 'Data and AI engineer with 8+ years building production systems. I turn Python, C++, SQL and applied AI into useful applications, combining prompt design, product framing and production methodologies.',
  'jobs': [
   ('Jun 2026–', 'AI applications & data studio', 'q4o', 'Building practical AI applications and production-grade data systems for clients. Python, C++, SQL, prompt design and Lean delivery.'),
   ('10/2024–03/2026', 'VP Data Engineering', 'Isskar', 'Led data engineering strategy and delivery; built teams, methods and reliable data foundations.'),
   ('2025', 'Automated financial reporting', 'Cedrus & Partners', 'Python engine generating 50+ client PowerPoint reports per month from Power BI data, fully automated.'),
   ('2025', 'Modern data stack for senior care KPIs', 'Colisée', 'Modernized finance reporting with Airbyte, Coalesce, Airflow and Power BI; trained the performance team.'),
+  ('2025', 'Data governance & platform selection (RFI/RFP)', 'CIBTP France', 'Co-authored the RFI and 170+ requirements: governance, modern data stack, MDM, reversibility, sovereignty; reported the evaluation, 5-year TCO of EUR 2M.'),
   ('2024–25', 'GenAI for wealth advisory', 'GAMBIT / BNP Paribas', 'Whisper + Mistral pipeline for transcribing and summarizing client meetings; modular Azure Kubernetes architecture, deployed on-prem.'),
   ('2024–25', 'AI job market intelligence', 'AFDAS', 'LLM solution updating 70+ job descriptions across sectors, with an LLM-as-judge quality-control workflow.'),
   ('2023–24', 'Supplier insights platform', 'Carrefour Links', 'Supplier-facing platform processing 1B+ rows/day; dbt, BigQuery, Airflow and semantic search for e-commerce insights.'),
@@ -31,12 +32,13 @@ DATA = {
  'eduTitle':'Education', 'edu':'MSc Engineering, Sorbonne (2017) · UPMC (2015)',
 },
 'fr': {
- 'intro': 'Ingénieur data et IA, 8+ ans d’expérience sur des systèmes en production. Je transforme Python, C++, SQL et l’IA appliquée en applications utiles, avec conception de prompts, cadrage produit et livraison Lean.',
+ 'intro': 'Ingénieur data et IA, 8+ ans d’expérience sur des systèmes en production. Je transforme Python, C++, SQL et l’IA appliquée en applications utiles, avec conception de prompts, cadrage produit et méthodologies de production.',
  'jobs': [
   ('Juin 2026–', 'Applications IA & studio data', 'q4o', 'Conception d’applications IA utiles et de systèmes data prêts pour la production. Python, C++, SQL, prompts et livraison Lean.'),
   ('10/2024–03/2026', 'VP Data Engineering', 'Isskar', 'Pilotage de la stratégie et des projets data engineering, des équipes, des méthodes et des fondations data.'),
   ('2025', 'Automatisation du reporting financier', 'Cedrus & Partners', 'Moteur Python générant plus de 50 rapports PowerPoint clients par mois depuis Power BI, entièrement automatisé.'),
   ('2025', 'Modernisation du reporting EHPAD', 'Colisée', 'Modernisation du reporting financier avec Airbyte, Coalesce, Airflow et Power BI ; formation de l’équipe performance.'),
+  ('2025', 'Gouvernance data & choix de plateforme (RFI/RFP)', 'CIBTP France', 'Co-auteur du RFI et de 170+ exigences : gouvernance, modern data stack, MDM, réversibilité, souveraineté ; rapporteur de l’évaluation, TCO à 5 ans 2 M€.'),
   ('2024–25', 'GenAI pour la gestion de patrimoine', 'GAMBIT / BNP Paribas', 'Pipeline Whisper + Mistral pour transcrire et résumer les entretiens ; architecture modulaire Azure Kubernetes, déploiement on-prem.'),
   ('2024–25', 'IA pour la veille sur les métiers', 'AFDAS', 'Solution LLM mettant à jour plus de 70 fiches métiers dans plusieurs secteurs, avec contrôle qualité automatisé.'),
   ('2023–24', 'Plateforme d’insights fournisseurs', 'Carrefour Links', 'Plateforme fournisseurs traitant plus d’1 Md de lignes/jour ; dbt, BigQuery, Airflow et recherche sémantique.'),
