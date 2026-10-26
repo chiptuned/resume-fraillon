@@ -15,7 +15,7 @@ DATA = {
 'en': {
  'intro': 'Data and AI engineer with 8+ years building production systems. I turn Python, C++, SQL and applied AI into useful applications, combining prompt design, product framing and production methodologies.',
  'jobs': [
-  ('Jun 2026–', 'AI applications & data studio', 'q4o', 'Building practical AI applications and production-grade data systems for clients. Python, C++, SQL, prompt design and Lean delivery.'),
+  ('09/2026–', 'AI applications & data studio', 'q4o', 'Building practical AI applications and production-grade data systems for clients. Python, C++, SQL, prompt design and Lean delivery.'),
   ('10/2024–03/2026', 'VP Data Engineering', 'Isskar', 'Led data engineering strategy and delivery; built teams, methods and reliable data foundations.'),
   ('2025', 'Automated financial reporting', 'Cedrus & Partners', 'Python engine generating 50+ client PowerPoint reports per month from Power BI data, fully automated.'),
   ('2025', 'Modern data stack for senior care KPIs', 'Colisée', 'Modernized finance reporting with Airbyte, Coalesce, Airflow and Power BI; trained the performance team.'),
@@ -34,7 +34,7 @@ DATA = {
 'fr': {
  'intro': 'Ingénieur data et IA, 8+ ans d’expérience sur des systèmes en production. Je transforme Python, C++, SQL et l’IA appliquée en applications utiles, avec conception de prompts, cadrage produit et méthodologies de production.',
  'jobs': [
-  ('Juin 2026–', 'Applications IA & studio data', 'q4o', 'Conception d’applications IA utiles et de systèmes data prêts pour la production. Python, C++, SQL, prompts et livraison Lean.'),
+  ('09/2026–', 'Applications IA & studio data', 'q4o', 'Conception d’applications IA utiles et de systèmes data prêts pour la production. Python, C++, SQL, prompts et livraison Lean.'),
   ('10/2024–03/2026', 'VP Data Engineering', 'Isskar', 'Pilotage de la stratégie et des projets data engineering, des équipes, des méthodes et des fondations data.'),
   ('2025', 'Automatisation du reporting financier', 'Cedrus & Partners', 'Moteur Python générant plus de 50 rapports PowerPoint clients par mois depuis Power BI, entièrement automatisé.'),
   ('2025', 'Modernisation du reporting EHPAD', 'Colisée', 'Modernisation du reporting financier avec Airbyte, Coalesce, Airflow et Power BI ; formation de l’équipe performance.'),

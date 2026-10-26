@@ -12,7 +12,7 @@ const t = {
     atLabel: "at",
     bio: [
       "I'm a data and AI engineer with 8+ years building production systems where data infrastructure, software, and applied AI meet.",
-      "Since June 2026, I've been building q4o, a Paris-based data and AI studio focused on useful AI applications and production-grade data systems. I combine Python, C++, SQL, prompt design, product framing, and Lean delivery.",
+      "Since September 2026, I've been building q4o, a Paris-based data and AI studio focused on useful AI applications and production-grade data systems. I combine Python, C++, SQL, prompt design, product framing, and Lean delivery.",
       "Before q4o, I was VP Data Engineering at Isskar from October 2024 to March 2026. Earlier, I led data engineering and data science projects at Theodo Data & AI.",
       "My work spans financial services, retail, manufacturing, and public institutions—from AI-assisted wealth advisory to a supplier-insights platform processing more than 1 billion rows per day.",
     ],
@@ -39,7 +39,7 @@ const t = {
     atLabel: "chez",
     bio: [
       "Ingénieur data et IA avec plus de 8 ans d'expérience, je construis des systèmes en production à la rencontre de l'infrastructure data, du logiciel et de l'IA appliquée.",
-      "Depuis juin 2026, je développe q4o, un studio parisien data et IA consacré aux applications IA utiles et aux systèmes data prêts pour la production. J'allie Python, C++, SQL, conception de prompts, cadrage produit et livraison Lean.",
+      "Depuis septembre 2026, je développe q4o, un studio parisien data et IA consacré aux applications IA utiles et aux systèmes data prêts pour la production. J'allie Python, C++, SQL, conception de prompts, cadrage produit et livraison Lean.",
       "Auparavant, j'ai été VP Data Engineering chez Isskar d'octobre 2024 à mars 2026. Avant cela, j'ai dirigé des projets data et IA chez Theodo Data & AI.",
       "Mes réalisations couvrent la banque, le retail, l'industrie et le secteur public : conseiller bancaire augmenté par l'IA, veille des compétences et plateforme fournisseurs traitant plus d'un milliard de lignes par jour.",
     ],
